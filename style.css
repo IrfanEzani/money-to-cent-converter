@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ height: 100vh;
+ font-family: 'lato', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+input, button {
+    padding: 5px;
+    margin: 0 2px;
+    background-color: white;
+    border: 2px solid grey;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h1,p {
+    margin: 1rem 0;
+}
