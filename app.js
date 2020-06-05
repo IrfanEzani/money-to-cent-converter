@@ -1,5 +1,6 @@
 const number = document.getElementById('number');
 
 function convert() {
-console.log(number.value)
+console.log(number.value);
+return;
 }
